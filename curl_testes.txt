@@ -1,0 +1,7 @@
+curl -X POST -H "Content-Type: application/json" -d  "{\"musicName\":\"I wanna go\", \"artist\":\"Britney Spears\", \"listener\":\"Roger\", \"msg\":\"Manda um salve\"}" http://localhost:3000/pedido/create
+curl -X POST -H "Content-Type: application/json" -d  "{\"musicName\":\"I'm Good\", \"artist\":\"David Guetta e Bebe Rexha\", \"listener\":\"Turma de SW\", \"msg\":\"Um salve para a galera da matéria de Serviços web\"}" http://localhost:3000/pedido/create
+
+
+curl -X GET http://localhost:3000/pedidos
+curl -X PUT -H "Content-Type: application/json" -d  "{\"id\":1,\"musicName\":\"I wanna go\",\"status\":1,\"timestamp\":1698372786,\"artist\":\"Britney Spears\",\"listener\":\"Roger\",\"msg\":\"Manda um salve\"}" http://localhost:3000/pedido/update
+curl -X DELETE -H "Content-Type: application/json"  http://localhost:3000/pedido/delete/2

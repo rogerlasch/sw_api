@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sw_api", "sw_api.vcxproj", "{8A87CD9B-E877-48FB-93A1-A22D6FDAE837}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{C5B7FF00-1AE9-46F3-914C-A20E4D9459A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A87CD9B-E877-48FB-93A1-A22D6FDAE837}.Debug|x86.ActiveCfg = Debug|Win32
+		{8A87CD9B-E877-48FB-93A1-A22D6FDAE837}.Debug|x86.Build.0 = Debug|Win32
+		{8A87CD9B-E877-48FB-93A1-A22D6FDAE837}.Release|x86.ActiveCfg = Release|Win32
+		{8A87CD9B-E877-48FB-93A1-A22D6FDAE837}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08999CCA-73C0-4C10-A43A-E49A44B4F8C7}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Documentação da API</title>
+</head>
+<body>
+    <h1>Documentação da API</h1>
+
+    <ul>
+        <li><a href="#introducao">Introdução</a></li>
+        <li><a href="#get-pedidos">GET /pedidos</a></li>
+        <li><a href="#post-create-pedido">POST /pedido/create</a></li>
+        <li><a href="#put-update-pedido">PUT /pedido/update</a></li>
+        <li><a href="#delete-pedido">DELETE /pedido/delete/{id}</a></li>
+    </ul>
+
+    <h2 id="introducao">Introdução</h2>
+    <p>Esta API foi desenvolvida como parte de um exercício prático na aula de Serviços Web, abordando os conteúdos discutidos em sala de aula. Ela representa uma API de Pedido Musical, permitindo que os usuários registrem solicitações de músicas para que um radialista as atenda posteriormente. Para fazer um pedido, o usuário deve fornecer informações como o nome da música, o nome do artista, o seu próprio nome e, opcionalmente, um recado.</p>
+
+    <h2 id="get-pedidos">GET /pedidos</h2>
+    <p>Retorna a lista de pedidos de música.</p>
+
+    <h2 id="post-create-pedido">POST /pedido/create</h2>
+    <p>Cria um novo pedido de música.</p>
+    <p>Parâmetros: JSON contendo musicName, artist, listener e msg.</p>
+
+    <h2 id="put-update-pedido">PUT /pedido/update</h2>
+    <p>Atualiza um pedido de música existente.</p>
+    <p>Parâmetros: JSON contendo id, musicName, artist, listener, msg, status e timestamp.</p>
+
+    <h2 id="delete-pedido">DELETE /pedido/delete/{id}</h2>
+    <p>Exclui um pedido de música pelo ID.</p>
+    <p>Parâmetros: Id - O ID do pedido a ser excluído.</p>
+</body>
+</html>
